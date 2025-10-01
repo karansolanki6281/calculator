@@ -175,7 +175,7 @@ class _CalculatorState extends State<Calculator> {
             foregroundColor: textColor ?? Colors.white,
             padding: EdgeInsets.all(30),
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(115),
+              borderRadius: BorderRadius.circular(30),
             ),
           ),
           child: Text(
@@ -275,7 +275,7 @@ class _CalculatorState extends State<Calculator> {
                 _buildButton('0', color: Colors.grey[700]),
                 _buildButton('.'),
                 _buildButton('=', color: Colors.blue[400]),
-                _buildButton('', color: Colors.grey[800]), // Placeholder button to maintain 4-column layout
+                _buildButton('00', color: Colors.grey[800]), // Placeholder button to maintain 4-column layout
               ],
             ),
             SizedBox(height: 20),
