@@ -42,22 +42,6 @@ flutter run -d chrome
 # Windows
 flutter run -d windows
 ```
-
-If you have multiple devices, list them with:
-
-```powershell
-flutter devices
-```
-
-## Project Structure
-
-```
-lib/
-  main.dart        // App entry point and calculator UI/logic
-test/
-  widget_test.dart // Example widget test
-```
-
 ## Testing
 
 ```powershell
